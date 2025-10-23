@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.centro{
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+p{
+    font-size: large;
+}
+
+.segundo{
+    margin-top: 8rem;
+}
+
+img{
+    margin: 5rem 0rem 5rem 0rem;
+}
+
+.tabela{
+    
+    margin: auto;
+    margin-top: 2rem;
+}
+
+h2{
+    margin-top: 5rem;
+}
+
+.rotacao {
+  animation: girar 4s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.movendo {
+  position: relative;
+  animation: deslizar 5s linear infinite;
+}
+
+@keyframes deslizar {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
